@@ -1,0 +1,30 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>王宝强表情生成器</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+<div id="form">
+    <div>第一句话</div>
+    <input class="textInput" type="text">
+
+    <div>第二句话</div>
+    <input class="textInput" type="text">
+
+    <div>第三句话</div>
+    <input class="textInput" type="text">
+
+    <div>
+        <input id="btnDownload" type="button" value="下载图片" onclick="saveImage()">
+        <input id="btnClear" type="button" value="重置" onclick="clearText()">
+    </div>
+</div>
+<div id="imageShow">
+    <canvas id="canvas" width="480" height="600"></canvas>
+</div>
+</body>
+</html>

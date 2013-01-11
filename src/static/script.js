@@ -25,6 +25,7 @@ document.ready = function () {
     }
 }
 
+//更新画布
 var updateCanvas = function () {
     context.clearRect(0, 0, 480, 600);
     context.drawImage(wbqImage, 0, 0);
@@ -34,26 +35,17 @@ var updateCanvas = function () {
     }
 };
 
-function SaveAs5(imgURL)
-{
-    var oPop = window.open(imgURL,"","width=480, height=600, top=50, left=50");
-    for(; oPop.document.readyState != "complete"; )
-    {
-        if (oPop.document.readyState == "complete")break;
-    }
-    oPop.document.execCommand("SaveAs");
-//    oPop.close();
-}
-
+//将图像输出为base64压缩的字符串，默认为image/png
 var saveImage = function () {
-    //将图像输出为base64压缩的字符串，默认为image/png
+
     var data = canvas.toDataURL();
-    $.post("/upload" , {imgData : data}, function(data){
-        console.log(data);
-        window.location = data;
+    $.post("/upload" , {imgData : data}, function(imageLocation){
+        console.log(imageLocation);
+        window.location = imageLocation;
     });
 }
 
+//重置文本框
 var clearText = function () {
     for (var i in textInputs) {
         textInputs[i].value = "";

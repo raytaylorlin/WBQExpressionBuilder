@@ -25,7 +25,6 @@ document.ready = function () {
     }
 }
 
-
 var updateCanvas = function () {
     context.clearRect(0, 0, 480, 600);
     context.drawImage(wbqImage, 0, 0);
@@ -49,29 +48,10 @@ function SaveAs5(imgURL)
 var saveImage = function () {
     //将图像输出为base64压缩的字符串，默认为image/png
     var data = canvas.toDataURL();
-    //删除字符串前的提示信息 "data:image/png;base64,"
-    var b64 = data.substring(22);
-    $.post("/save" , { data : b64}, function(){
-        //OK
+    $.post("/upload" , {imgData : data}, function(data){
+        console.log(data);
+        window.location = data;
     });
-//    var domCanvas = document.getElementById("canvas");
-//
-//    var newWin = window.open(domCanvas.toDataURL("image/png"),
-//        "","width=480, height=600, top=50, left=50");
-//    for(; newWin.document.readyState != "complete"; )
-//    {
-//        if (newWin.document.readyState == "complete")
-//            break;
-//    }
-//    var newWin2 = window.open(document.getElementsByTagName("img")[0].src,
-//        "","width=480, height=600, top=50, left=50");
-//    for(; newWin2.document.readyState != "complete"; )
-//    {
-//        if (newWin2.document.readyState == "complete")
-//            break;
-//    }
-//
-//    newWin2.document.execCommand("SaveAs");
 }
 
 var clearText = function () {

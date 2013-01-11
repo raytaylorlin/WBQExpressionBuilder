@@ -15,7 +15,11 @@ local.properties
 .classpath
 .settings/
 .loadpath
+
+# project
 .idea
+src/temp
+
 
 # External tool builders
 .externalToolBuilders/

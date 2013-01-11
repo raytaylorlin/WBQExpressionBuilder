@@ -67,10 +67,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/static/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="28" selection-start="190" selection-end="190" vertical-scroll-proportion="0.29679596">
+            <state line="53" column="7" selection-start="1536" selection-end="1536" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="server.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="20" selection-start="78" selection-end="78" vertical-scroll-proportion="0.07586207">
               <folding />
             </state>
           </provider>
@@ -79,16 +88,7 @@
       <file leaf-file-name="mime.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mime.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="2" selection-start="496" selection-end="496" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="12" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0">
+            <state line="10" column="21" selection-start="260" selection-end="271" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -97,7 +97,7 @@
       <file leaf-file-name="requestHandler.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/requestHandler.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="59" selection-start="494" selection-end="549" vertical-scroll-proportion="0.0">
+            <state line="18" column="16" selection-start="609" selection-end="609" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -107,15 +107,6 @@
         <entry file="file://$PROJECT_DIR$/src/router.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="server.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/server.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="23" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -146,8 +137,8 @@
         <option value="$PROJECT_DIR$/src/requestHandler.js" />
         <option value="$PROJECT_DIR$/src/package.json" />
         <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/server.js" />
         <option value="$PROJECT_DIR$/src/static/script.js" />
+        <option value="$PROJECT_DIR$/src/server.js" />
       </list>
     </option>
   </component>
@@ -555,13 +546,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mime.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="2" selection-start="496" selection-end="496" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/router.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -576,30 +560,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="12" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/requestHandler.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="59" selection-start="494" selection-end="549" vertical-scroll-proportion="0.0">
+        <state line="18" column="16" selection-start="609" selection-end="609" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/server.js">
+    <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="23" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0">
+        <state line="0" column="33" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mime.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="21" selection-start="260" selection-end="271" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/node_modules/express/node_modules/connect/node_modules/qs/test/browser/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4350" column="8" selection-start="113357" selection-end="113357" vertical-scroll-proportion="0.33275864">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/static/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="28" selection-start="190" selection-end="190" vertical-scroll-proportion="0.29679596">
+        <state line="53" column="7" selection-start="1536" selection-end="1536" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="20" selection-start="78" selection-end="78" vertical-scroll-proportion="0.07586207">
           <folding />
         </state>
       </provider>

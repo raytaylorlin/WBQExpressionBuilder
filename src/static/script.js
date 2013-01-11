@@ -37,11 +37,15 @@ var updateCanvas = function () {
 
 //将图像输出为base64压缩的字符串，默认为image/png
 var saveImage = function () {
-
+    var button = $("#btnDownload").get(0);
+    button.value = "请稍后";
+    button.disabled = true;
     var data = canvas.toDataURL();
-    $.post("/upload" , {imgData : data}, function(imageLocation){
+    $.post("/upload", {imgData:data}, function (imageLocation) {
         console.log(imageLocation);
         window.location = imageLocation;
+        button.value = "下载图片";
+        button.disabled = false;
     });
 }
 

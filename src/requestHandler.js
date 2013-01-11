@@ -41,6 +41,9 @@ var onRequestDownload = function (request, response) {
             response.setHeader('Content-disposition', 'attachment; filename=' + filePath);
             response.send(file);
             response.end();
+            fs.unlink(filePath, function () {
+                console.log("deleted!");
+            })
         });
 };
 
